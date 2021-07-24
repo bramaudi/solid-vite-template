@@ -14,9 +14,12 @@
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7",
     "vite": "^2.4.2",
+    "vite-plugin-pages": "^0.15.1",
     "vite-plugin-solid": "^2.0.0"
   },
   "dependencies": {
-    "solid-js": "^1.0.2"
+    "solid-app-router": "^0.1.2",
+    "solid-js": "^1.0.4",
+    "sort-route-paths": "^1.0.0"
   }
 }
