@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import styles from "./App.module.css"
 import { Link } from "solid-app-router";
-import ReloadPrompt from "./ReloadPrompt";
+import ReloadPrompt from "./components/ReloadPrompt";
 
 function App({ Routes }) {
   return (
