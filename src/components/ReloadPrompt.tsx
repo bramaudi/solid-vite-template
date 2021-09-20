@@ -1,8 +1,8 @@
-import { createSignal, Show } from 'solid-js'
-import { registerSW } from 'virtual:pwa-register'
-import { onMount } from 'solid-js'
+import { Component, createSignal, Show } from "solid-js"
+import { registerSW } from "virtual:pwa-register"
+import { onMount } from "solid-js"
 
-const ReloadPrompt = () => {
+const ReloadPrompt: Component = () => {
   const [needRefresh, setNeedRefresh] = createSignal(false)
   const [offlineReady, setOfflineReady] = createSignal(false)
 

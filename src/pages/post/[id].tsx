@@ -1,6 +1,7 @@
+import { Component } from "solid-js"
 import { useParams } from "solid-app-router"
 
-const PostId = () => {
+const PostId: Component = () => {
   const params = useParams()
   return (
     <div>
