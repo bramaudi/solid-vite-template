@@ -1,16 +1,17 @@
+import { JSXElement } from "solid-js"
 import logo from "./logo.svg";
 import styles from "./App.module.css"
 import { Link } from "solid-app-router";
 import ReloadPrompt from "@components/ReloadPrompt";
 
-function App({ Routes }) {
+function App({ Routes }: { Routes: () => JSXElement }) {
   return (
     <div class="text-center bg-blue-900 text-indigo-50">
       <ReloadPrompt />
       <header class="flex items-center justify-center flex-col min-h-screen">
-        <img src={logo} class={styles.logo} alt="logo" />
+        <img src={logo} class={ styles.logo} alt="logo" />
         <p class="my-5">
-          Edit <code>src/App.jsx</code> and save to reload.
+          Edit <code class="p-1 rounded bg-blue-700">src/App.tsx</code> and save to reload.
         </p>
         <div>
           <Routes />

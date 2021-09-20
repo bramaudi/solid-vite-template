@@ -5,8 +5,7 @@ specifiers:
   autoprefixer: ^10.3.1
   postcss: ^8.3.6
   solid-app-router: ^0.1.2
-  solid-js: ^1.0.4
-  sort-route-paths: ^1.0.0
+  solid-js: ^1.1.4
   tailwindcss: ^2.2.7
   vite: ^2.4.2
   vite-plugin-pages: ^0.15.1
@@ -16,9 +15,8 @@ specifiers:
   workbox-window: ^6.2.4
 
 dependencies:
-  solid-app-router: 0.1.5_solid-js@1.1.1
-  solid-js: 1.1.1
-  sort-route-paths: 1.0.0
+  solid-app-router: 0.1.5_solid-js@1.1.4
+  solid-js: 1.1.4
 
 devDependencies:
   '@vue/compiler-sfc': 3.2.4
@@ -3032,20 +3030,20 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-app-router/0.1.5_solid-js@1.1.1:
+  /solid-app-router/0.1.5_solid-js@1.1.4:
     resolution: {integrity: sha512-8wxpBP1pOea4rQFba1NH6uyPFBvqcSxHB4i9dSuoQw5OABgecvrFfAe+0TbYCP/7OhJ9RcEfsej+LBEdE/YS0Q==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.1.1
+      solid-js: 1.1.4
     dev: false
 
   /solid-js/1.0.2:
     resolution: {integrity: sha512-zQIbVlBH9WNqXfUSOhZAGZv1bkuaeo5yke+M4r5QgG5IuFxP2+ltGJjGLBN7r+Nj9M+H9QK7ufHVeexQsDvg7A==}
     dev: true
 
-  /solid-js/1.1.1:
-    resolution: {integrity: sha512-BtNNMUjBGtkx4viW5q/oqU4DOHa3WRhylN302cVVIeiBUGw6uzAE+NhNF12bAvSYJOCHLyGHpUEIeWklkeGgsg==}
+  /solid-js/1.1.4:
+    resolution: {integrity: sha512-u3rvemWTQQ1ab9YrrRR+bUi7Daq5ZRVlR6gEDsHrRYC5uYFkFGGRt/ibjo+OsBxjbPRxGzy7jel3mfTZiiuNzA==}
     dev: false
 
   /solid-refresh/0.2.1_solid-js@1.0.2:
@@ -3055,11 +3053,6 @@ packages:
     dependencies:
       solid-js: 1.0.2
     dev: true
-
-  /sort-route-paths/1.0.0:
-    resolution: {integrity: sha1-vr5Umu8hyi5BCMEtHFhJQ8wM4OI=}
-    engines: {node: '>=6'}
-    dev: false
 
   /source-map-js/0.6.2:
     resolution: {integrity: sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==}

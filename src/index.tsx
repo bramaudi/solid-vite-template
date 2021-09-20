@@ -1,21 +1,22 @@
-import { render } from 'solid-js/web'
-import { Router, useRoutes } from 'solid-app-router'
-import App from './App'
-import generatedRoutes from 'virtual:generated-pages';
-import rsort from 'sort-route-paths'
-import { lazy } from 'solid-js';
-import './index.css'
+import { render } from "solid-js/web"
+import { Router, useRoutes, RouteDefinition } from "solid-app-router"
+import { TodoProvider } from "@context/todo"
+import { lazy } from "solid-js"
+import generatedRoutes from "virtual:generated-pages"
+import App from "./App"
+import "./index.css"
 
-const lazyRoutes = (route) => ({...route, component: lazy(route.component)})
-const Routes = useRoutes(rsort(
-	generatedRoutes.map(lazyRoutes),
-	route => route.path
-))
+const lazyRoutes: RouteDefinition[] = generatedRoutes.map((route) => {
+  return {...route, component: lazy(route.component)}
+})
+const Routes = useRoutes(lazyRoutes)
 
 render(
   () => (
     <Router>
-      <App Routes={Routes} />
+      <TodoProvider>
+        <App Routes={Routes} />
+      </TodoProvider>
     </Router>
   ),
   document.getElementById('root')

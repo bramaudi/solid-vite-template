@@ -1,5 +1,6 @@
 # Features
 
+- File system based routing
 - Typescript for Safe Typing
 - TailwindCSS for rapid styling
 - PWA-ready with Prompt component
