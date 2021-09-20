@@ -1,5 +1,6 @@
 import { render } from 'solid-js/web'
 import { Router, useRoutes } from 'solid-app-router'
+import { TodoProvider } from "@context/todo"
 import App from './App'
 import generatedRoutes from 'virtual:generated-pages';
 import rsort from 'sort-route-paths'
@@ -15,7 +16,9 @@ const Routes = useRoutes(rsort(
 render(
   () => (
     <Router>
-      <App Routes={Routes} />
+      <TodoProvider>
+        <App Routes={Routes} />
+      </TodoProvider>
     </Router>
   ),
   document.getElementById('root')
