@@ -5,8 +5,8 @@ const Home: Component = () => {
 	const [todo, setTodo] = useTodo()
 	const addRandomTask = () => {
 		const newTodo = {
-			task: 'Hello',
-			completed: false
+			task: (Math.random() + 1).toString(36).substring(7),
+			completed: Math.random() < 0.5
 		}
 		setTodo('todos', t => [...t, newTodo])
 	}
