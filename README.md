@@ -1,3 +1,9 @@
+# Features
+
+- Typescript for Safe Typing
+- TailwindCSS for rapid styling
+- PWA-ready with Prompt component
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.js.org/) via `pnpm up -Lri`.
