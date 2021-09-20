@@ -1,7 +1,7 @@
 {
   "name": "vite-template-solid",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "My personal solid boilerplate",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "solid-app-router": "^0.1.2",
-    "solid-js": "^1.0.4",
-    "sort-route-paths": "^1.0.0"
+    "solid-js": "^1.1.4"
   }
 }
