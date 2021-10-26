@@ -13,7 +13,7 @@
     "@vue/compiler-sfc": "^3.1.5",
     "autoprefixer": "^10.3.1",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7",
+    "tailwindcss": "^2.2.17",
     "vite": "^2.4.2",
     "vite-plugin-pages": "^0.15.1",
     "vite-plugin-pwa": "^0.11.0",
@@ -22,7 +22,7 @@
     "workbox-window": "^6.2.4"
   },
   "dependencies": {
-    "solid-app-router": "^0.1.2",
-    "solid-js": "^1.1.4"
+    "solid-app-router": "^0.1.9",
+    "solid-js": "^1.2.0"
   }
 }
