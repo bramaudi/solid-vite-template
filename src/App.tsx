@@ -24,7 +24,7 @@ function App({ Routes }: { Routes: () => JSXElement }) {
         </div>
         <a
           class="text-blue-300"
-          href="https://github.com/ryansolid/solid"
+          href="https://solidjs.com"
           target="_blank"
           rel="noopener noreferrer"
         >
